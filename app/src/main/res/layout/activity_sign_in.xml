@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/login_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sibola.app.SignInActivity">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="@color/icons"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:textSize="50sp"
+             />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            />
+
+
+        <EditText
+            android:id="@+id/usernameText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/username"
+            android:textColorHint="@color/icons"
+            android:textColor="@color/icons"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:backgroundTint="@color/icons"/>
+
+        <EditText
+            android:id="@+id/passwordText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:textColor="@color/icons"
+            android:textColorHint="@color/icons"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:inputType="textPassword"
+            android:backgroundTint="@color/icons"/>
+
+        <Button
+            android:id="@+id/buttonMasuk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:background="@color/primary"
+            android:layout_marginTop="15dp"
+            android:text="@string/masuk"
+            android:textColor="@color/icons"
+            android:textSize="20sp"
+            android:onClick="goToActivityNavigation"
+            />
+
+        <Button
+            android:id="@+id/buttonDaftar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:background="@null"
+            android:layout_marginTop="15dp"
+            android:text="@string/daftar"
+            android:textColor="@color/icons"
+            android:textSize="20sp"
+            android:onClick="goToActivitySignUp"
+            />
+    </LinearLayout>
+</RelativeLayout>
