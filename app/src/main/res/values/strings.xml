@@ -8,8 +8,10 @@
     <string name="daftar">DAFTAR</string>
     <string name="home">Home</string>
     <string name="profil">Profil</string>
+    <string name="hai">Hai username! Deposit kamu </string>
+    <string name="deposit">Rp 200.000</string>
     <string name="title_activity_navigation">NavigationActivity</string>
-
+    <string name="status">Kamu tidak mempunyai jadwal futsal, klik tanggal dan pilih slot jam  untuk booking jadwal</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 

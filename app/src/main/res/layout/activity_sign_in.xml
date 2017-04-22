@@ -63,7 +63,7 @@
             android:text="@string/masuk"
             android:textColor="@color/icons"
             android:textSize="20sp"
-            android:onClick="goToActivityNavigation"
+            android:onClick="goToActivityHome"
             />
 
         <Button

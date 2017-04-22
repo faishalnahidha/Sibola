@@ -16,14 +16,13 @@ public class SignInActivity extends AppCompatActivity {
     }
 
 
-    public void goToActivityNavigation (View view){
-        startActivity(new Intent (this, NavigationActivity.class));
-
-    }
-
     public void goToActivitySignUp (View view){
         startActivity(new Intent (this, SignUpActivity.class));
 
+    }
+
+    public void goToActivityHome(View view){
+        startActivity(new Intent(this, HomeActivity.class));
     }
 
 }
